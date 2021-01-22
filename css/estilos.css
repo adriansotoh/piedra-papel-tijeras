@@ -153,8 +153,9 @@ main {
   font-size: 40px;
 }
 
-.modal-content p {
-  font-size: 18px;
+#modal p {
+  margin-top: 14px;
+  font-size: 20px;
 }
 
 #button-container {

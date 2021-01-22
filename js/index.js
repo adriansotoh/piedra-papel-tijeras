@@ -18,7 +18,7 @@ function victoria(machine) {
   playerScore++;
   playerInputScore.innerHTML = playerScore;
   machineInputScore.innerHTML = machineScore;
-  result.innerHTML = `<h1 class="text-win">Ganaste!</h1> <p>La máquina escogió <strong>${machine}</strong></p>`;
+  result.innerHTML = `<h1 class="text-win">Tú ganaste c:!</h1> <p>La máquina escogió <strong>${machine}</strong></p>`;
   modal.style.display = "block";
 }
 
@@ -26,14 +26,14 @@ function derrota(machine) {
   machineScore++;
   playerInputScore.innerHTML = playerScore;
   machineInputScore.innerHTML = machineScore;
-  result.innerHTML = `<h1 class="text-lose">Perdiste!</h1> <p>La máquina escogió <strong>${machine}</strong></p>`;
+  result.innerHTML = `<h1 class="text-lose">Tú perdiste :c!</h1> <p>La máquina escogió <strong>${machine}</strong></p>`;
   modal.style.display = "block";
 }
 
 function empate(machine) {
   playerInputScore.innerHTML = playerScore;
   machineInputScore.innerHTML = machineScore;
-  result.innerHTML = `<h1 class="text-draw">Empate!</h1> <p>La máquina escogió <strong>${machine}</strong></p>`;
+  result.innerHTML = `<h1 class="text-draw">Empate!, contienda reñida</h1> <p>La máquina escogió <strong>${machine}</strong></p>`;
   modal.style.display = "block";
 }
 
