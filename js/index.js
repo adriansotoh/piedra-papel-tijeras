@@ -6,7 +6,6 @@ const result = document.getElementById("result");
 const modal = document.getElementById("modal");
 var options = document.getElementsByClassName("image");
 const reiniciar = document.getElementById("reiniciar");
-console.log(options);
 
 function machineOption() {
   const opciones = ["piedra", "papel", "tijeras"];
@@ -39,8 +38,6 @@ function empate(machine) {
 
 function play(playerOption) {
   const machineElection = machineOption();
-  console.log(machineElection);
-  console.log(playerOption + machineElection);
   switch (playerOption + machineElection) {
     case "papelpiedra":
     case "tijeraspapel":
