@@ -45,15 +45,15 @@ function play(playerOption) {
     case "papelpiedra":
     case "tijeraspapel":
     case "piedratijeras":
-      victoria(playerOption, machineElection);
+      victoria(machineElection);
       break;
     case "papeltijeras":
     case "piedrapapel":
     case "tijeraspiedra":
-      derrota(playerOption, machineElection);
+      derrota(machineElection);
       break;
     default:
-      empate(playerOption, machineElection);
+      empate(machineElection);
       break;
   }
 }
